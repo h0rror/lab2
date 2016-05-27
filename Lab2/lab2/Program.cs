@@ -4,38 +4,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab2
+namespace COMP123_S2016_Lesson3
 {
     /**
-     * This class is the "driver" class for our program
+     * This class is the "driver" class for our Program
      * 
      * @class Program
-     * */
+     */
     public class Program
     {
-
         /**
-         * the main method for out driver class
+         * the main method for our driver class Program
          * 
          * @method Main
-         * @param {string[]} args
-         * */
+         * @param {sting[]} args
+         */
         public static void Main(string[] args)
         {
-            Person person; // Person person = new Person(); <--- way to do it in one line
-
             // create a new instance of the Person class
-            person = new Person("Tom");
+            Person tanya = new Person();
+            tanya.Name = "Tanya";
+            tanya.Age = 28;
+            tanya.SaysHello();
+            tanya.ShowAge();
 
-            Console.WriteLine(person.Name);
+            Console.WriteLine();
 
-            // set a value in the Name property of the Person class
-           // person.Name = "Tom";
+            Person tom = new Person("Tom");
+            tom.Age = 47;
+            tom.SaysHello();
+            tom.ShowAge();
 
-            // get the Name value and print to console
-            Console.WriteLine(person.Name);
-            
+            Console.WriteLine();
+
+            Person mark = new Person(30);
+            mark.Name = "Mark";
+            mark.SaysHello();
+            mark.ShowAge();
+
+            Console.WriteLine();
+
+            Person mary = new Person("Mary", 23);
+            mary.SaysHello();
+            mary.ShowAge();
+
 
         }
     }
+
 }

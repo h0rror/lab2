@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\lab2\lab2.csproj">
+    <ProjectReference Include="..\lab2\COMP123_S2016_Lesson3.csproj">
       <Project>{41eeebe5-4268-4fbb-8f67-a13958089707}</Project>
-      <Name>lab2</Name>
+      <Name>COMP123_S2016_Lesson3</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
