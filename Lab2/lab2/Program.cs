@@ -23,14 +23,14 @@ namespace COMP123_S2016_Lesson3
         {
             // create a new instance of the Person class
             Person tanya = new Person();
-            tanya.Name = "Tanya";
+            tanya.Name = "Tatiana";
             tanya.Age = 28;
             tanya.SaysHello();
             tanya.ShowAge();
 
             Console.WriteLine();
 
-            Person tom = new Person("Tom");
+            Person tom = new Person("Joe");
             tom.Age = 47;
             tom.SaysHello();
             tom.ShowAge();
@@ -38,13 +38,13 @@ namespace COMP123_S2016_Lesson3
             Console.WriteLine();
 
             Person mark = new Person(30);
-            mark.Name = "Mark";
+            mark.Name = "Morpheus";
             mark.SaysHello();
             mark.ShowAge();
 
             Console.WriteLine();
 
-            Person mary = new Person("Mary", 23);
+            Person mary = new Person("Marie", 23);
             mary.SaysHello();
             mary.ShowAge();
 
